@@ -6,7 +6,9 @@ pipeline {
       steps {
         // Checkout your Terraform code from version control
         // For example, using Git
-        git 'https://github.com/saranyamani11/jenkins-pipeline.git'
+        git branch: 'main',
+                credentialsId: '7f75e953-1ef6-44bb-a701-b9eb123b4c7c',
+                url: '<https://github.com/saranyamani11/jenkinspipeline-terraform-azure.git'>
       }
     }
 
