@@ -6,7 +6,7 @@ pipeline {
       steps {
         // Checkout your Terraform code from version control
         // For example, using Git
-        git 'https://github.com/your-repo.git'
+        git 'https://github.com/saranyamani11/jenkins-pipeline.git'
       }
     }
 
