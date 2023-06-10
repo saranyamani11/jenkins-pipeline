@@ -8,7 +8,7 @@ pipeline {
         // For example, using Git
         git branch: 'main',
                 credentialsId: '7f75e953-1ef6-44bb-a701-b9eb123b4c7c',
-                url: '<https://github.com/saranyamani11/jenkins-pipeline.git'>
+                url: '<https://github.com/saranyamani11/jenkins-pipeline.git>'
       }
     }
 
