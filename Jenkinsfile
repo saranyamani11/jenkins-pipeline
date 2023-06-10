@@ -14,11 +14,12 @@ pipeline {
       }
     }
 
-   stage('Terraform Init') {
+  stage('Terraform Init') {
   steps {
-    sh '/correct/path/to/terraform init'
+    sh '/usr/local/bin/terraform init'
   }
 }
+
 
     stage('Terraform Plan') {
       steps {
