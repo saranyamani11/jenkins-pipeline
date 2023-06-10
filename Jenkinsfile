@@ -16,9 +16,10 @@ pipeline {
 
    stage('Terraform Init') {
   steps {
-    sh '/path/to/terraform init'
+    sh '/correct/path/to/terraform init'
   }
 }
+
     stage('Terraform Plan') {
       steps {
         // Generate Terraform plan
